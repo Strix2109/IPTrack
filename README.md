@@ -32,15 +32,15 @@ Features:
 12.Zip Code
 
 Installation :
-$ apt update && apt upgrade
-$ apt install git
-$ apt install python
-$ git clone https://github.com/Strix2109/IPTrack.git
-$ cd IPGeoLocation
-$ chmod +x *
-$ pip install -r requirements.txt
+* apt update && apt upgrade
+* apt install git
+* apt install python
+* git clone https://github.com/Strix2109/IPTrack.git
+* cd IPGeoLocation
+* chmod +x *
+* pip install -r requirements.txt
 Usage :
-$ python ipgeolocation.py -t [target ip]
+* python ipgeolocation.py -t [target ip]
 it gives you all information related to your target..
 
 HOW TO USE
