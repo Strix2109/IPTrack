@@ -1,7 +1,7 @@
 # IPTrack
 
 
-#Retrieve IP Geolocation information
+#Retrieve IP Track information
 
 Features:
 *Retrieve IP or Domain Geolocation.
