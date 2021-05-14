@@ -2,33 +2,25 @@
 # encoding: UTF-8
 
 """
-    This file is part of IPGeoLocation tool.
-    Copyright (C) 2015-2016 @maldevel
-    https://github.com/maldevel/IPGeoLocation
+    IPTrack tool.
+    https://github.com/Strix2109/IPTrack.git
     
+ ____ _____ ____  _____  __   ___ ____
+/ ___|_   _|  _ \|_ _\ \/ /  |_ _|  _ \
+\___ \ | | | |_) || | \  /    | || |_) |
+ ___) || | |  _ < | | /  \    | ||  __/
+|____/ |_| |_| \_\___/_/\_\  |___|_|
+By STRIX CYBER COMMUNITY
+Instagram- @strix_21
+Youtube- STRIX.D
     IPGeoLocation - Retrieve IP Geolocation information 
     Powered by http://ip-api.com
-    
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
-    For more see the file 'LICENSE' for copying permission.
 """
 
-__author__   = 'maldevel'
-__twitter__  = '@maldevel'
+__author__  = 'Santkr.'
+__instagram__  = '@strix_21'
 __version__  = '2.0.4'
-__year__     = '2015-2016'
+__year__     = '2021-2022'
 
 
 from argparse import RawTextHelpFormatter
@@ -38,13 +30,18 @@ from core.Logger import Red
 
 
 banner = """
-{0} 
+    https://github.com/Strix2109/IPTrack.git
+    
+ ____ _____ ____  _____  __   ___ ____
+/ ___|_   _|  _ \|_ _\ \/ /  |_ _|  _ \
+\___ \ | | | |_) || | \  /    | || |_) |
+ ___) || | |  _ < | | /  \    | ||  __/
+|____/ |_| |_| \_\___/_/\_\  |___|_|
+By STRIX CYBER COMMUNITY
+Instagram- @strix_21
+Youtube- STRIX.D
 
-{1} Retrieve IP Geolocation information from ip-api.com
-{1} Copyright (c) {2} {3} ({4})
-{1} ip-api.com service will automatically ban any IP addresses doing over 150 requests per minute.
-
-""".format(Red('IPGeolocation ' + __version__), Red('--['), __year__, __author__, __twitter__)
+""".format(Red('IPGeolocation ' + __version__), Red('--['), __year__, __author__, __instagram__)
 
 
 def checkFileRead(filename):
